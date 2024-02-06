@@ -1,9 +1,14 @@
+#this is an spanish project, but feel free to check this
+
+#raised to b-nth power function
 def potencia():
     comprobar=True
     while(comprobar):
         try:
             a=float(input("Inserte la base: "))
+            #base
             b=float(input("Inserte el exponente: "))
+            #raised number
             comprobar=False
         except:
             print("Inserte un valor válido")
@@ -12,6 +17,7 @@ def potencia():
     print("El resultado es: ", pot)
 
 
+#square root function
 def raz():
     comprobar=True
     while(comprobar):
@@ -25,6 +31,7 @@ def raz():
     print("El resultado es: ", raiz)
 
 
+#subtraction
 def resta():
     comprobar=True
     while(comprobar):
@@ -39,12 +46,15 @@ def resta():
     print("La respuesta es: ", diferencia)
 
 
+#division
 def dividir():
     comprobar=True
     while(comprobar):
         try:
             a=float(input("Inserte el numerador: "))
+            #numerator
             b=float(input("Inserte el denominador "))
+            #denominator
             comprobar=False
         except:
             print("Inserte un valor válido")
@@ -56,6 +66,7 @@ def dividir():
         print("La respuesta es: ", div)
 
 
+#addition
 def suma():
     comprobar=True
     while(comprobar):
@@ -81,6 +92,7 @@ def suma():
     print("El resultado es: ",total)
 
 
+#multiplication
 def multiplicar():
     comprobar=True
     while(comprobar):
@@ -160,6 +172,7 @@ def repetir_operaciones():
 
 # M A I N 👋
 
+#welcome message
 print("Bienvenido a nuestra calculadora")
 print("Esperamos que te ayude en tus cálculos")
 
